@@ -1,5 +1,8 @@
 import React from "react";
-import { FiLogIn } from "react-icons/fi";
+import { FiLogIn, FiMail, FiLock } from "react-icons/fi";
+
+import Input from "../../components/Input";
+import Button from "../../components/Button";
 
 import ImageLogo from "../../assets/Logo.svg";
 
@@ -14,9 +17,14 @@ const Login = () => {
         <form>
           <h1>Get Login</h1>
 
-          <input placeholder="E-mail" />
-          <input type="password" placeholder="Password" />
-          <button>Login</button>
+          <Input name="email" icon={FiMail} placeholder="E-mail" />
+          <Input
+            name="password"
+            icon={FiLock}
+            type="password"
+            placeholder="Password"
+          />
+          <Button>Login</Button>
           <a href="teste">Forgot Password</a>
         </form>
 

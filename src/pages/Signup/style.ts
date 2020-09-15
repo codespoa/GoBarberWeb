@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import { shade } from "polished";
 
-
-import signInBackground from "../../assets/background-login.png";
+import signInBackground from "../../assets/background-signup.png";
 
 export const Container = styled.section`
   width: 100%;
@@ -51,7 +50,7 @@ export const Content = styled.div`
   }
 
   > a {
-    color: #ff9000;
+    color: #f4ede8;
     font-weight: normal;
     font-size: 16px;
     line-height: 21px;
@@ -62,7 +61,7 @@ export const Content = styled.div`
     transition: color 0.2s;
 
     &:hover {
-      color: ${shade(0.2, "#ff9000")};
+      color: ${shade(0.2, "#F4EDE8")};
     }
 
     svg {
