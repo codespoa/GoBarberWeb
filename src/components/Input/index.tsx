@@ -10,8 +10,6 @@ import { FiAlertCircle } from "react-icons/fi";
 
 import { useField } from "@unform/core";
 
-import Tooltip from "../../components/Tooltip";
-
 import { InputStyle, Error } from "./style";
 
 interface InputElementProps extends InputHTMLAttributes<HTMLInputElement> {
